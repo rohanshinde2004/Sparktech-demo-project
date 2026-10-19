@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About | Sparktech Demo</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site">
+    <div class="wrap">
+      <a class="brand" href="index.html">Sparktech Demo</a>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html" aria-current="page">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="hero">
+      <h1>What is inside this project</h1>
+      <p>A small Maven web project with one Java class, three unit tests and a static website.</p>
+    </section>
+
+    <table>
+      <thead><tr><th>Path</th><th>Purpose</th></tr></thead>
+      <tbody>
+        <tr><td><code>pom.xml</code></td><td>Project settings, dependencies and plugins.</td></tr>
+        <tr><td><code>src/main/java</code></td><td>Java source code (BuildInfo.java).</td></tr>
+        <tr><td><code>src/test/java</code></td><td>JUnit tests, run by <code>mvn test</code>.</td></tr>
+        <tr><td><code>src/main/webapp</code></td><td>HTML and CSS files that go into the WAR.</td></tr>
+        <tr><td><code>target/</code></td><td>Build output. Created by Maven, never committed to Git.</td></tr>
+      </tbody>
+    </table>
+
+    <footer>Sparktech Demo, a practice project for Maven, Git and AWS EC2.</footer>
+  </main>
+</body>
+</html>
